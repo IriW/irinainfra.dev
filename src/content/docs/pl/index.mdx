@@ -1,36 +1,46 @@
 ---
 title: irinainfra.dev
-description: test strona.
+description: "Od YAML-a do produkcji: DevOps, platformy, CI/CD i wszystko, czego się uczę po drodze."
 template: splash
 hero:
-  tagline: Techniczny dziennik o chmurze, DevOps i platformie!
-  image:
-    file: ../../../assets/houston.webp
+  tagline: Techniczny dziennik o chmurze, DevOps i infrastrukturze.
   actions:
-    - text: Blog
-      link: /pl/guides/example/
+    - text: Zobacz wpisy
+      link: /pl/guides/
       icon: right-arrow
     - text: O mnie
-      link: https://starlight.astro.build
+      link: https://www.linkedin.com/in/irinadebowska
       icon: external
       variant: minimal
 ---
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
-## Next steps
+## Witaj na irinainfra.dev 👋
+
+To mój osobisty notatnik techniczny — zbiór przemyśleń, rozwiązań i wniosków z codziennej pracy w roli Platform Managera oraz DevOps inżyniera.
+
+Piszę o:
+- automatyzacji i CI/CD
+- infrastrukturze w chmurze (głównie Azure)
+- wyzwaniach w zespołach platformowych
+- kosztach, bezpieczeństwie i dobrych praktykach
+
+---
+
+## Co dalej?
 
 <CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
-	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
-	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
-	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
-	</Card>
+  <Card title="Poznaj wpisy" icon="folder">
+    Wejdź w zakładkę z przewodnikami i zobacz moje techniczne notatki.
+  </Card>
+  <Card title="Kim jestem?" icon="user">
+    Sprawdź mój profil na LinkedIn, aby poznać moje doświadczenie i certyfikaty.
+  </Card>
+  <Card title="Wersja angielska" icon="translate">
+    Preferujesz angielski? Kliknij w prawym górnym rogu, aby przełączyć język.
+  </Card>
+  <Card title="Rozszerzenia bloga" icon="rocket">
+    W planach: template'y DevOps, automatyzacje i więcej – stay tuned!
+  </Card>
 </CardGrid>

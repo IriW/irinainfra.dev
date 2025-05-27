@@ -1,36 +1,46 @@
 ---
 title: irinainfra.dev
-description: test strona.
+description: "From YAML to production: DevOps, platforms, CI/CD and everything I learn along the way."
 template: splash
 hero:
-  tagline: Techniczny dziennik o chmurze, DevOps i platformie!
-  image:
-    file: ../../assets/houston.webp
+  tagline: My technical journal on cloud, DevOps & infrastructure.
   actions:
-    - text: Blog
-      link: /pl/guides/example/
+    - text: View Posts
+      link: /en/guides/
       icon: right-arrow
-    - text: O mnie
-      link: https://starlight.astro.build
+    - text: About Me
+      link: https://www.linkedin.com/in/irinadebowska
       icon: external
       variant: minimal
 ---
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
-## Next steps
+## Welcome to irinainfra.dev 👋
+
+This is my personal tech notebook — a collection of ideas, fixes, learnings, and insights from my daily work as a Platform Manager and DevOps engineer.
+
+Topics I write about:
+- automation & CI/CD
+- cloud infrastructure (mostly Azure)
+- platform team challenges
+- cost control, security & good practices
+
+---
+
+## What's next?
 
 <CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
-	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
-	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
-	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
-	</Card>
+  <Card title="Browse my posts" icon="folder">
+    Check out my guides and tech takeaways in blog format.
+  </Card>
+  <Card title="Who am I?" icon="user">
+    Visit my <a href="https://www.linkedin.com/in/irinadebowska/">LinkedIn</a>  profile for background, experience, and certifications.
+  </Card>
+  <Card title="Polska wersja" icon="translate">
+    Prefer reading in Polish? Use the language switcher in the top-right corner.
+  </Card>
+  <Card title="Future extensions" icon="rocket">
+    Coming soon: DevOps templates, automation snippets and more.
+  </Card>
 </CardGrid>
