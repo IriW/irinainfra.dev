@@ -13,3 +13,11 @@ export const collections = {
     }),
   }),
 };
+
+export default {
+  sidebar: {
+    pl: {
+      guides: 'wpisy',
+    },
+  },
+};

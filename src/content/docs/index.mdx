@@ -1,6 +1,7 @@
 ---
 title: irinainfra.dev
 description: "From YAML to production: DevOps, platforms, CI/CD and everything I learn along the way."
+
 template: splash
 hero:
   tagline: My technical journal on cloud, DevOps & infrastructure.
@@ -12,6 +13,8 @@ hero:
       link: https://www.linkedin.com/in/irinadebowska
       icon: external
       variant: minimal
+---
+
 ---
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
@@ -31,16 +34,24 @@ Topics I write about:
 ## What's next?
 
 <CardGrid stagger>
-  <Card title="Browse my posts" icon="folder">
-    Check out my guides and tech takeaways in blog format.
-  </Card>
-  <Card title="Who am I?" icon="user">
-    Visit my <a href="https://www.linkedin.com/in/irinadebowska/">LinkedIn</a>  profile for background, experience, and certifications.
-  </Card>
-  <Card title="Polska wersja" icon="translate">
-    Prefer reading in Polish? Use the language switcher in the top-right corner.
-  </Card>
-  <Card title="Future extensions" icon="rocket">
-    Coming soon: DevOps templates, automation snippets and more.
-  </Card>
+  <a href="/en/guides/" style="text-decoration: none; color: inherit;">
+    <Card title="Browse my posts" icon="folder">
+      Check out my guides and tech takeaways in blog format.
+    </Card>
+  </a>
+  <a href="https://www.linkedin.com/in/irinadebowska/" style="text-decoration: none; color: inherit;">
+    <Card title="Who am I?" icon="user">
+      Visit my LinkedIn profile for background, experience, and certifications.
+    </Card>
+  </a>
+  <a href="/pl" style="text-decoration: none; color: inherit;">
+    <Card title="Polska wersja" icon="translate">
+      Prefer reading in Polish? Use the language switcher in the top-right corner.
+    </Card>
+  </a>
+  <a href="/en/guides/example" style="text-decoration: none; color: inherit;">
+    <Card title="Future extensions" icon="rocket">
+      Coming soon: DevOps templates, automation snippets and more.
+    </Card>
+  </a>
 </CardGrid>

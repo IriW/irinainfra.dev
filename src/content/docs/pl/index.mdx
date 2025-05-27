@@ -16,31 +16,46 @@ hero:
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
-## Witaj na irinainfra.dev 👋
+<div style="display: flex; align-items: center;">
+  <div style="flex: 1;">
+    ## Witaj na irinainfra.dev 👋
 
-To mój osobisty notatnik techniczny — zbiór przemyśleń, rozwiązań i wniosków z codziennej pracy w roli Platform Managera oraz DevOps inżyniera.
+    To mój osobisty notatnik techniczny — zbiór przemyśleń, rozwiązań i wniosków z codziennej pracy w roli Platform Managera oraz DevOps inżyniera.
 
-Piszę o:
-- automatyzacji i CI/CD
-- infrastrukturze w chmurze (głównie Azure)
-- wyzwaniach w zespołach platformowych
-- kosztach, bezpieczeństwie i dobrych praktykach
+    Piszę o:
+    - automatyzacji i CI/CD
+    - infrastrukturze w chmurze (głównie Azure)
+    - wyzwaniach w zespołach platformowych
+    - kosztach, bezpieczeństwie i dobrych praktykach
+  </div>
+  <div style="flex: 1; text-align: right;">
+    <img src="/irinadevaiimage.png" alt="Irina DevOps Image" style="max-width: 100%; height: auto;" />
+  </div>
+</div>
 
 ---
 
 ## Co dalej?
 
 <CardGrid stagger>
-  <Card title="Poznaj wpisy" icon="folder">
-    Wejdź w zakładkę z przewodnikami i zobacz moje techniczne notatki.
-  </Card>
-  <Card title="Kim jestem?" icon="user">
-    Sprawdź mój profil na LinkedIn, aby poznać moje doświadczenie i certyfikaty.
-  </Card>
-  <Card title="Wersja angielska" icon="translate">
-    Preferujesz angielski? Kliknij w prawym górnym rogu, aby przełączyć język.
-  </Card>
-  <Card title="Rozszerzenia bloga" icon="rocket">
-    W planach: template'y DevOps, automatyzacje i więcej – stay tuned!
-  </Card>
+  <a href="/pl/guides/" style="text-decoration: none; color: inherit;">
+    <Card title="Poznaj wpisy" icon="folder">
+      Wejdź w zakładkę z przewodnikami i zobacz moje techniczne notatki.
+    </Card>
+  </a>
+  <a href="https://www.linkedin.com/in/irinadebowska/" style="text-decoration: none; color: inherit;">
+    <Card title="Kim jestem?" icon="user">
+      Sprawdź mój profil na LinkedIn, aby poznać moje doświadczenie i certyfikaty.
+    </Card>
+  </a>
+  <a href="/en" style="text-decoration: none; color: inherit;">
+    <Card title="Wersja angielska" icon="translate">
+      Preferujesz angielski? Kliknij tu albo w prawym górnym rogu, aby przełączyć język.
+    </Card>
+  </a>
+  <a href="/pl/guides/example" style="text-decoration: none; color: inherit;">
+    <Card title="Rozszerzenia bloga" icon="rocket">
+      W planach: template'y DevOps, automatyzacje i więcej – stay tuned!
+    </Card>
+  </a>
 </CardGrid>
