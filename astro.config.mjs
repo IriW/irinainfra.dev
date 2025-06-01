@@ -6,6 +6,8 @@ import { resolve } from 'path';
 
 // https://astro.build/config
 export default defineConfig({
+  site: 'https://irinainfra.dev/',
+  base: '/',
   integrations: [
     starlight({
       title: 'Start',
