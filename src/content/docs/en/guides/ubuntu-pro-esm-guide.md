@@ -4,7 +4,7 @@ title: "Enable Ubuntu PRO, Patch Securely, and Preserve MySQL 5.7"
 description: "Step-by-step guide for enabling Ubuntu PRO (Canonical or Azure), configuring package pinning and apt-mark hold for legacy services, and safely automating security patching."
 pubDate: "2025-06-01"
 tags: ["Ubuntu", "Ubuntu PRO", "ESM", "MySQL", "Apache", "Security"]
----------------------------------------------------------------------
+---
 
 > This is a **how-to guide**. For theory and background on Ubuntu ESM, apt pinning, and patch safety, see the [reference article](/en/reference/ubuntu-pro-esm-theory).
 
