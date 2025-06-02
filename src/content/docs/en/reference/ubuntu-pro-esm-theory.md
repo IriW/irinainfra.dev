@@ -4,7 +4,7 @@ title: "Ubuntu PRO and ESM: Concepts and Practical Considerations"
 description: "Reference guide for understanding Ubuntu PRO, Canonical ESM, and associated system management practices."
 pubDate: "2025-05-20"
 tags: ["Ubuntu", "ESM", "Patching", "Security", "Infrastructure"]
-------------------------------------------------------------------
+---
 
 > For hands-on instructions, visit the [Ubuntu PRO Implementation Guide](/en/guides/ubuntu-pro-esm-guide).
 
