@@ -5,7 +5,7 @@ pubDate: "2025-05-28"
 tags: ["Azure", "Runbook", "Automation", "DevOps"]
 ---
 
-> This article is a **how-to guide**. If you're looking for theoretical background or architectural context, check out the [reference article on Azure Automation Runbooks](/docs/en/reference/azure-runbooks).
+> This article is a **how-to guide**. If you're looking for theoretical background or architectural context, check out the [reference article on Azure Automation Runbooks](/en/reference/azure-runbooks).
 
 ## Goal
 
