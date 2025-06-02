@@ -1,3 +1,7 @@
+# irinainfra.dev build status
+
+[![Deploy to GitHub Pages](https://github.com/IriW/irinainfra.dev/actions/workflows/deploy.yml/badge.svg)](https://github.com/IriW/irinainfra.dev/actions/workflows/deploy.yml)
+
 # Starlight Starter Kit: Basics
 
 [![Built with Starlight](https://astro.badg.es/v2/built-with-starlight/tiny.svg)](https://starlight.astro.build)
